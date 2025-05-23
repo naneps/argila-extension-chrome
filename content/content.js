@@ -205,3 +205,5 @@ observer.observe(document.body, { childList: true, subtree: true });
 
 createPauseButton();
 createHistoryButton();
+window.addEventListener("toggle-history-from-popup", toggleHistory);
+window.addEventListener("force-detect-from-popup", getTextAndDetect); 
