@@ -34,7 +34,7 @@ This tool detects whether a given text is sarcastic, selects the appropriate che
 5. Visit an Argilla page, for example:
 
    ```
-   https://adealvii-argilla.hf.space/?workspaces=argilla
+   https://yourdataset-argilla.hf.space/?workspaces=argilla
    ```
 
 6. The extension will automatically activate and begin detecting text in elements like:
