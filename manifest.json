@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Sarcasm Labeler",
+    "version": "1.0",
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://*.argilla.hf.space/dataset/*",
+        "https://adealvii-argilla.hf.space/dataset/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.argilla.hf.space/dataset/*",
+                "https://adealvii-argilla.hf.space/dataset/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
