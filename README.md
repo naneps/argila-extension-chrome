@@ -1,4 +1,4 @@
-Here’s the **English version** of the README that includes only the **Description**, **Features**, and **Installation Instructions**:
+
 
 ---
 
@@ -45,4 +45,3 @@ This tool detects whether a given text is sarcastic, selects the appropriate che
 
 ---
 
-Let me know if you'd like to add the other sections (e.g. technical notes or folder structure) later!
